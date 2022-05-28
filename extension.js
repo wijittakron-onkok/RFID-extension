@@ -1,12 +1,12 @@
 ({
-    name: "RFID", // Category Name
+    name: "RFID", 
     description: "RFID reader 13.56MHz (MFRC522) SPI",
     author: "WIJITTAKRON",
     category: "Sensors",
     version: "1.0.1",
-    icon: "https://raw.githubusercontent.com/wijittakron20-tls/RFID-extension/main/static/icon.png", // Category icon
-    color: "#3498DB", // Category color (recommend some blocks color)
-    blocks: [ // Blocks in Category
+    icon: "./static/icon.png", 
+    color: "#3498DB", 
+    blocks: [ 
         "rfid_is_detected",
         "rfid_read_uid"
     ]
