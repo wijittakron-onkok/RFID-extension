@@ -1,6 +1,6 @@
 ({
     name: "RFID", // Category Name
-    description: "RFID reader Mifare 13.56MHz I2C interface",
+    description: "RFID reader 13.56MHz (MFRC522) SPI; SET Pin => SDA=SDA1, SCK=SLC1, MOSI=Pin18, MISO=Pin19",
     author: "WIJITTAKRON",
     category: "Sensors",
     version: "1.0.0",
