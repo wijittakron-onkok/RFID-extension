@@ -4,7 +4,7 @@
     author: "WIJITTAKRON",
     category: "Sensors",
     version: "1.0.1",
-    icon: "static/icon.png", // Category icon
+    icon: "https://raw.githubusercontent.com/wijittakron20-tls/RFID-extension/main/static/icon.png", // Category icon
     color: "#3498DB", // Category color (recommend some blocks color)
     blocks: [ // Blocks in Category
         "rfid_is_detected",
