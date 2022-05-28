@@ -1,3 +1,4 @@
+from time import sleep_ms
 from machine import Pin, SPI
 from os import uname
 
@@ -220,26 +221,17 @@ class MFRC522:
 		return stat
 
 
-def isDetected():
+def do_read():
     try:
-        rdr = MFRC522(spi, sda)
-        (stat, tag_type) = rdr.request(rdr.REQIDL)
-        if stat == rdr.OK:
-            return True
+        while True:
+            rdr = MFRC522(spi, sda)
+            uid = ""
+            (stat, tag_type) = rdr.request(rdr.REQIDL)
+            if stat == rdr.OK:
+                (stat, raw_uid) = rdr.anticoll()
+                if stat == rdr.OK:
+                    uid = ("0x%02x%02x%02x%02x" % (raw_uid[0], raw_uid[1], raw_uid[2], raw_uid[3]))
+                    return uid
+                    sleep_ms(100)
     except:
-        return False
-    
-    return False
-
-def readUID():
-    uid = ""
-    try:
-        rdr = MFRC522(spi, sda)
-        (stat, raw_uid) = rdr.anticoll()
-        if stat == rdr.OK:
-            uid = ("0x%02x%02x%02x%02x" % (raw_uid[0], raw_uid[1], raw_uid[2], raw_uid[3]))
-            return uid
-    except:
-        return uid
-		
-    return uid
+        return ""
