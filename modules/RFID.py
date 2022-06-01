@@ -219,6 +219,7 @@ class MFRC522:
 
 		return stat
 
+
 rdr = MFRC522(spi, sda)
 
 def isDetected():
@@ -228,17 +229,11 @@ def isDetected():
             return True
     except:
         return False
-    
-    return False
-	
 
 def readUID():
     try:
-        while True:
-            uid = ""
-            (stat, raw_uid) = rdr.anticoll()
-            if stat == rdr.OK:
-                uid = ("0x%02x%02x%02x%02x" % (raw_uid[0], raw_uid[1], raw_uid[2], raw_uid[3]))
-                return uid
+        (stat, raw_uid) = rdr.anticoll()
+        if stat == rdr.OK:
+            return ("0x%02x%02x%02x%02x" % (raw_uid[0], raw_uid[1], raw_uid[2], raw_uid[3]))
     except:
         return ""
