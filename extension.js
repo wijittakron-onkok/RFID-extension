@@ -7,7 +7,7 @@
   icon: "/static/icon.png",
   color: "#985BA5",
   blocks: [
-      "kb_i2c_scanner_decimal",
-      "kb_i2c_scanner_hexadecimal"
+      "scanner_decimal",
+      "scanner_hexadecimal"
   ]
 });
