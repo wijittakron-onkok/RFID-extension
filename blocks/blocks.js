@@ -1,7 +1,7 @@
 Blockly.defineBlocksWithJsonArray([
   {
-    "type": "kb_i2c_scanner_decimal",
-    "message0": "Decimal scl: %1 sda: %2 freq: %3",
+    "type": "kb_i2c_decimal",
+    "message0": "I2C Decimal scl: %1 sda: %2 freq: %3",
     "args0": [
       {
         "type": "field_dropdown",
@@ -32,8 +32,8 @@ Blockly.defineBlocksWithJsonArray([
     "helpUrl": ""
   },
   {
-    "type": "kb_i2c_scanner_hexadecimal",
-    "message0": "Hexadecimal scl: %1 sda: %2 freq: %3",
+    "type": "kb_i2c_hexadecimal",
+    "message0": "I2C Hexadecimal scl: %1 sda: %2 freq: %3",
     "args0": [
       {
         "type": "field_dropdown",
