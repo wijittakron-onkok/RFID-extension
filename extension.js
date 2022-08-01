@@ -10,7 +10,7 @@
     {
       xml: `
               <block type="kb_i2c_decimal">
-                  <value name="freq">
+                  <value name="freq1">
                       <shadow type="math_number">
                           <field name="NUM">100000</field>
                       </shadow>

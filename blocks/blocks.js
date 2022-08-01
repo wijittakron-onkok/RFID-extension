@@ -5,7 +5,7 @@ Blockly.defineBlocksWithJsonArray([
     "args0": [
       {
         "type": "field_dropdown",
-        "name": "scl",
+        "name": "scl1",
         "options": [
           ["SCL0", "22"],
           ["SCL1", "5"]
@@ -13,7 +13,7 @@ Blockly.defineBlocksWithJsonArray([
       },
       {
         "type": "field_dropdown",
-        "name": "sda",
+        "name": "sda1",
         "options": [
           ["SDA0", "21"],
           ["SDA1", "4"]
@@ -21,7 +21,7 @@ Blockly.defineBlocksWithJsonArray([
       },
       {
         "type": "input_value",
-        "name": "freq",
+        "name": "freq1",
         "check": "Number"
       }
     ],
