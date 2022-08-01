@@ -25,9 +25,7 @@ Blockly.defineBlocksWithJsonArray([
         "check": "Number"
       }
     ],
-    "inputsInline": true,
-    "previousStatement": null,
-    "nextStatement": null,
+    "output": null,
     "colour": "#985BA5",
     "tooltip": "",
     "helpUrl": ""
@@ -58,9 +56,7 @@ Blockly.defineBlocksWithJsonArray([
         "check": "Number"
       }
     ],
-    "inputsInline": true,
-    "previousStatement": null,
-    "nextStatement": null,
+    "output": null,
     "colour": "#985BA5",
     "tooltip": "",
     "helpUrl": ""
