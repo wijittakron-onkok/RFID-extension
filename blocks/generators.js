@@ -1,4 +1,4 @@
-Blockly.JavaScript['kb_i2c_scanner_decimal'] = function(block) {
+Blockly.JavaScript['kb_i2c_scanner_decimal'] = function (block) {
   Blockly.Python.definitions_['import_kidbright_i2c_as_kb_i2c'] = 'import kidbright_i2c as kb_i2c';
 
   var dropdown_scl = block.getFieldValue('scl');
@@ -10,7 +10,7 @@ Blockly.JavaScript['kb_i2c_scanner_decimal'] = function(block) {
   return code;
 };
 
-Blockly.JavaScript['kb_i2c_scanner_hexadecimal'] = function(block) {
+Blockly.JavaScript['kb_i2c_scanner_hexadecimal'] = function (block) {
   Blockly.Python.definitions_['import_kidbright_i2c_as_kb_i2c'] = 'import kidbright_i2c as kb_i2c';
 
   var dropdown_scl = block.getFieldValue('scl');
