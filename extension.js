@@ -7,7 +7,27 @@
   icon: "/static/icon.png",
   color: "#985BA5",
   blocks: [
-      "scanner_decimal",
-      "scanner_hexadecimal"
+    {
+      xml: `
+              <block type="kb_i2c_scanner_decimal">
+                  <value name="freq">
+                      <shadow type="math_number">
+                          <field name="NUM">100000</field>
+                      </shadow>
+                  </value>
+              </block>
+            `
+    },
+    {
+      xml: `
+              <block type="kb_i2c_scanner_hexadecimal">
+                  <value name="freq">
+                      <shadow type="math_number">
+                          <field name="NUM">100000</field>
+                      </shadow>
+                  </value>
+              </block>
+            `
+    }
   ]
 });
