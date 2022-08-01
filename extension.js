@@ -19,6 +19,19 @@
                     </value>
               </block>
             `
+    },
+    {
+      xml: `
+              <block type="hex_i2c_scanner">
+                  <field name="scl">22</field>
+                  <field name="sda">21</field>
+                  <value name="freq">
+                        <shadow type="math_number">
+                            <field name="NUM">100000</field>
+                        </shadow>
+                    </value>
+              </block>
+            `
     }
   ]
 });
