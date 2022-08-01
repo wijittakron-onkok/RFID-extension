@@ -32,11 +32,9 @@ Blockly.defineBlocksWithJsonArray([
         ]
       },
       {
-        "type": "field_number",
+        "type": "input_value",
         "name": "freq",
-        "value": 100000,
-        "min": 1,
-        "max": 5000000
+        "check": "Number"
       }
     ],
     "output": null,
@@ -77,11 +75,9 @@ Blockly.defineBlocksWithJsonArray([
         ]
       },
       {
-        "type": "field_number",
+        "type": "input_value",
         "name": "freq",
-        "value": 100000,
-        "min": 1,
-        "max": 5000000
+        "check": "Number"
       }
     ],
     "output": null,
