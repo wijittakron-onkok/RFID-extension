@@ -7,28 +7,16 @@ Blockly.defineBlocksWithJsonArray([
         "type": "field_dropdown",
         "name": "scl",
         "options": [
-          [
-            "SCL0",
-            "22"
-          ],
-          [
-            "SCL1",
-            "5"
-          ]
+          ["SCL0", 22],
+          ["SCL1", 5]
         ]
       },
       {
         "type": "field_dropdown",
         "name": "sda",
         "options": [
-          [
-            "SDA0",
-            "21"
-          ],
-          [
-            "SDA1",
-            "4"
-          ]
+          ["SDA0", 21],
+          ["SDA1", 4]
         ]
       },
       {
@@ -37,8 +25,10 @@ Blockly.defineBlocksWithJsonArray([
         "check": "Number"
       }
     ],
-    "output": null,
-    "colour": 290,
+    "inputsInline": true,
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": "#985BA5",
     "tooltip": "",
     "helpUrl": ""
   },
@@ -50,28 +40,16 @@ Blockly.defineBlocksWithJsonArray([
         "type": "field_dropdown",
         "name": "scl",
         "options": [
-          [
-            "SCL0",
-            "22"
-          ],
-          [
-            "SCL1",
-            "5"
-          ]
+          ["SCL0", 22],
+          ["SCL1", 5]
         ]
       },
       {
         "type": "field_dropdown",
         "name": "sda",
         "options": [
-          [
-            "SDA0",
-            "21"
-          ],
-          [
-            "SDA1",
-            "4"
-          ]
+          ["SDA0", 21],
+          ["SDA1", 4]
         ]
       },
       {
@@ -80,8 +58,10 @@ Blockly.defineBlocksWithJsonArray([
         "check": "Number"
       }
     ],
-    "output": null,
-    "colour": 290,
+    "inputsInline": true,
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": "#985BA5",
     "tooltip": "",
     "helpUrl": ""
   }
