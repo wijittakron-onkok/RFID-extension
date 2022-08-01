@@ -5,7 +5,7 @@
   category: "Other",
   version: "1.0.0",
   icon: "/static/icon.png",
-  color: "#985BA5",
+  color: "#8D44AC",
   blocks: [
     {
       xml: `

@@ -5,7 +5,7 @@ Blockly.JavaScript['kb_i2c_decimal'] = function (block) {
   var dropdown_sda = block.getFieldValue('sda');
   var number_freq = Blockly.Python.valueToCode(block, 'freq', Blockly.Python.ORDER_NONE);
 
-  var code = `kb_i2c.decimal(${dropdown_scl}, ${dropdown_sda}, ${number_freq})`;
+  var code = `kb_i2c`;
 
   return [code, Blockly.Python.ORDER_NONE];
 };
@@ -17,7 +17,7 @@ Blockly.JavaScript['kb_i2c_hexadecimal'] = function (block) {
   var dropdown_sda = block.getFieldValue('sda');
   var number_freq = Blockly.Python.valueToCode(block, 'freq', Blockly.Python.ORDER_NONE);
 
-  var code = `kb_i2c.hexadecimal(${dropdown_scl}, ${dropdown_sda}, ${number_freq})`;
+  var code = `kb_i2c`;
 
   return [code, Blockly.Python.ORDER_NONE];
 };
