@@ -9,7 +9,7 @@
   blocks: [
     {
       xml: `
-              <block type="kb_i2c_scanner_decimal">
+              <block type="kb_i2c_decimal">
                   <value name="freq">
                       <shadow type="math_number">
                           <field name="NUM">100000</field>
@@ -20,7 +20,7 @@
     },
     {
       xml: `
-              <block type="kb_i2c_scanner_hexadecimal">
+              <block type="kb_i2c_hexadecimal">
                   <value name="freq">
                       <shadow type="math_number">
                           <field name="NUM">100000</field>
